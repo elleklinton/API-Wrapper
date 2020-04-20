@@ -2,8 +2,8 @@ from APIWrapper.OAuth import OAuth2
 from APIWrapper.apPy import apPy
 from PythonSaver.PythonSaver import load_dill
 
-client_key = '391ad829b55f4ce08abba37172796b23'
-client_secret = '5ce21279683b48e7952664cec2b0fb93'
+client_key = 'XXX'
+client_secret = 'XXX'
 
 def authorize_oauth():
     o2 = OAuth2(
